@@ -1,0 +1,13 @@
+/**
+ *
+ * @author imed
+ */
+module MatrixApp
+{
+  interface Matrix
+  {
+  typedef long Matriz[3][3];
+   string mat(in long a,in Matriz b);
+    oneway void shutdown();
+    };
+};
